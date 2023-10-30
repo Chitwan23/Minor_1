@@ -251,5 +251,4 @@ public class Maze extends JPanel implements Runnable {
         return false;
     }
 
-    
 }
