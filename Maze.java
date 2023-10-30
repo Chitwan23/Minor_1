@@ -31,13 +31,13 @@ public class Maze extends JPanel implements Runnable {
                   // visitedCode if it has already been explored without finding
                   // a solution, and by emptyCode if it has not yet been explored.
 
-    final static int backgroundCode = 0;
-    final static int wallCode = 1;
-    final static int pathCode = 2;
-    final static int emptyCode = 3;
-    final static int visitedCode = 4;
+    static final int backgroundCode = 0;
+    static final int wallCode = 1;
+    static final int pathCode = 2;
+    static final int emptyCode = 3;
+    static final int visitedCode = 4;
 
-    Color[] color; // colors associated with the preceding 5 constants;
+    Color[] color; // colors associated with the preceding 5 constants
     int rows = 41; // number of rows of cells in maze, including a wall around edges
     int columns = 51; // number of columns of cells in maze, including a wall around edges
     int border = 0; // minimum number of pixels between maze and edge of panel
@@ -86,7 +86,7 @@ public class Maze extends JPanel implements Runnable {
     }
     
 
-    synchronized protected void paintComponent(Graphics g) {
+    protected synchronized void paintComponent(Graphics g) {
         super.paintComponent(g);
         checkSize();
         redrawMaze(g);
