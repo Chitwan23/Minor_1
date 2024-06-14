@@ -21,7 +21,7 @@ Maze Master is a Java application that generates and solves random mazes. The ap
 
 **Clone the repository:**
 
-git clone https://github.com/your-username/maze-master.git
+git clone https://github.com/Chitwan23/Minor_1.git
 
 **Navigate to the project directory:**
 
