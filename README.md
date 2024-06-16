@@ -54,9 +54,11 @@ java MazeApp
 
 **ALGORITHMS>>**
 
+
 **Maze Generation --**
 
 **Depth-First Search (DFS):** The algorithm starts at the initial cell and explores as far as possible along each branch before backtracking.
+
 
 **Maze Solving --**
 
@@ -66,11 +68,13 @@ java MazeApp
 
 **A STAR:** The algorithm uses a heuristic to find the shortest path from the start to the end
 
+
 **PROJECT STRUCTURE>>**
 
 **MazeApp.java:** The main class that sets up the GUI and handles the maze generation and solving logic.
 
 **MazePanel.java:** A custom JPanel that handles the drawing of the maze.
+
 
 **CONTRIBUTING>>**
 
